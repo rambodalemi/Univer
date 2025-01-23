@@ -1,6 +1,8 @@
 {
-    "next": {
-      "modifyConfig": true
-    },
-    "app": "univer"
-  }
+  "app": "univer",
+  "port": 3000,
+  "build": {
+    "location": "iran"
+  },
+  "disks": []
+}
