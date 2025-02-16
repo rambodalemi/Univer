@@ -47,7 +47,7 @@ export default function SignUpForm() {
         username: values.username,
       });
       await signUp.prepareEmailAddressVerification();
-      setOtpStep(true); // Move to OTP verification step
+      setOtpStep(true);
       toast({
         title: "ثبت‌نام موفقیت‌آمیز!",
         description: "لطفاً ایمیل خود را برای تأیید بررسی کنید.",

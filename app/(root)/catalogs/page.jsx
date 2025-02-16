@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Page = () => {
+const catalogs = () => {
   return (
     <div style={{ width: '100%', height: '100vh' }}>
       <embed
@@ -13,4 +13,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default catalogs;
